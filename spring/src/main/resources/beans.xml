@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+ <bean id="student" class="com.capg.spring.Student">
+<property name = "id" value="102" ></property>
+<property name = "name" value="kala" ></property>
+ </bean>
+ <bean id ="info" class="com.capg.spring.Info">
+ 
+ <constructor-arg name ="num" value="100" type = "int"></constructor-arg>
+ <constructor-arg name ="name" value = "khushi" type="String"></constructor-arg>
+ <constructor-arg >
+ <ref bean="add"></ref>
+ </constructor-arg>
+ </bean>
+ 
+ <bean id="add" class="com.capg.spring.Address">
+ <constructor-arg name="city" value="indore"></constructor-arg>
+ <constructor-arg name="country" value="india"></constructor-arg>
+ </bean>
+ 
+ 
+ </beans>
