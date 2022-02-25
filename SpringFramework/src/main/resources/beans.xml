@@ -6,7 +6,6 @@
 
 
  <bean id="student" class="com.capg.spring.Student">
- 
-  
  </bean>
+ 
  </beans>

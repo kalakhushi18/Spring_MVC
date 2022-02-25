@@ -7,7 +7,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("main/resources/beans.xml");
 		Student student = (Student)context.getBean("student");
 		
 		student.setId(101);
