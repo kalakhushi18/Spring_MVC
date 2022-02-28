@@ -5,6 +5,8 @@ public class Info {
 	private int num ;
 	private String name ;
 	
+	
+	
 	private Address add ; 
 	
 	public Info()
