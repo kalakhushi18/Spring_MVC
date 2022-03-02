@@ -1,8 +1,13 @@
 package com.annotation.beans;
 
-public class StudentInfo {
+import org.springframework.beans.factory.annotation.Value;
 
+public class Student {
+
+	@Value("100")
 	private int id ;
+	
+	@Value("khushi")
 	private String name ;
 	
 	public int getId() {
