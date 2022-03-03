@@ -16,6 +16,7 @@ public class App
        Details s = new Details();
        s.setStid(1000);
        
+       
        s.setStname("khushi");
        int x = st.saveStudent(s);
 		
