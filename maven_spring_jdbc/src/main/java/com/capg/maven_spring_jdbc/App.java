@@ -15,6 +15,7 @@ public class App
        Studentdao st = context.getBean(Studentdao.class);
        Details s = new Details();
        s.setStid(1000);
+       
        s.setStname("khushi");
        int x = st.saveStudent(s);
 		
