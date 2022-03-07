@@ -8,6 +8,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @ComponentScan({"com.capg"})
+
 public class MVCconfig implements WebMvcConfigurer
 {
 
